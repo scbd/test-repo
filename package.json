@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/scbd/test-repo/issues"
   },
-  "homepage": "https://github.com/scbd/test-repo#readme"
+  "homepage": "https://github.com/scbd/test-repo#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }

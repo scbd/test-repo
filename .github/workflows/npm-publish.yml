@@ -29,6 +29,7 @@ jobs:
           registry-url: https://registry.npmjs.org/]
           scope: \@scbd
       - run: npm ci
+      - run: npm install
       - run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
